@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="asm">
+      <UniqueIdentifier>{35e9c7ad-7b4c-4eba-8857-d2b47ec256d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers">
+      <UniqueIdentifier>{0430fffd-ff33-44ba-b798-136ae24d338c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources">
+      <UniqueIdentifier>{3b04781d-9eef-42ab-9f12-21743a37d8ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\zlib\deflate.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib\gzguts.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib\inffast.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib\inffixed.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib\inflate.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib\inftrees.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib\trees.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib\zconf.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib\zlib.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\zlib\zutil.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\zlib\adler32.c">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib\compress.c">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib\deflate.c">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib\inffast.c">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib\inflate.c">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib\inftrees.c">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib\trees.c">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib\uncompr.c">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\zlib\zutil.c">
+      <Filter>sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\zlib\contrib\masmx64\gvmat64.asm">
+      <Filter>asm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\zlib\contrib\masmx86\match686.asm">
+      <Filter>asm</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="buildasm.bat">
+      <Filter>asm</Filter>
+    </None>
+  </ItemGroup>
+</Project>
