@@ -539,10 +539,6 @@ ENDIF
 
 
         ret 0
-; please don't remove this string !
-; Your can freely use gvmat64 in any free or commercial app
-; but it is far better don't remove the string in the binary!
-    db     0dh,0ah,"asm686 with masm, optimised assembly code from Brian Raiter, written 1998, converted to amd 64 by Gilles Vollant 2005",0dh,0ah,0
 longest_match   ENDP
 
 match_init PROC

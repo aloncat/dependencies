@@ -453,9 +453,6 @@ LookaheadRet:
         pop ebp
 
         ret
-; please don't remove this string !
-; Your can freely use match686 in any free or commercial app if you don't remove the string in the binary!
-    db     0dh,0ah,"asm686 with masm, optimised assembly code from Brian Raiter, written 1998",0dh,0ah
 
 
     IFDEF NOUNDERLINE
