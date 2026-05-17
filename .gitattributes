@@ -3,5 +3,4 @@
 *.bat text eol=crlf
 *.sh text eol=lf
 
-*.sln text eol=crlf
-*.vcxproj* text eol=crlf
+project/**/*.vcxproj* text eol=crlf
